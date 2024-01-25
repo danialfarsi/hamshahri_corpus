@@ -2,8 +2,8 @@
 
 ## Introduction
 
-The Hamshahri Dataset, specifically the Pikre Hamshahri corpus, is a substantial Persian text collection based on the Iranian newspaper Hamshahri. Initially compiled and edited by Ehsan Daroudi [1] from Tehran University, a subsequent group led by Abulfazl Al-Ahmad[2] continued to build and enhance this corpus. It marked the creation of the first Persian text collection suitable for information retrieval evaluation purposes.
-
+The Hamshahri Dataset, specifically the Pikre Hamshahri corpus, is a substantial Persian text collection based on the Iranian newspaper Hamshahri. Initially compiled and edited by Ehsan Daroudi from Tehran University, a subsequent group led by Abulfazl Al-Ahmadcontinued to build and enhance this corpus. It marked the creation of the first Persian text collection suitable for information retrieval evaluation purposes.
+Source : wikipedia
 ## Issue
 
 When you download the Hamshahri corpus, you will encounter a series of files in XML format. This documentation outlines the process of converting these XML files into CSV format for ease of use and analysis.
@@ -38,7 +38,7 @@ Here is a sample data entry from the Hamshahri Dataset:
 </TEXT>
 </DOC>
 
-
+```
 ## Conversion Process
 
 To convert the XML files to CSV, follow these steps:
@@ -59,18 +59,10 @@ To convert the XML files to CSV, follow these steps:
      ```
 
 5. **Review the Output:**
-   - The script will generate three CSV files, namely 'test.csv,' 'most.csv,' and 'classes.csv,' categorizing the data accordingly.
+   - The script will generate three CSV files, namely 'val_data_encoded.csv,' 'train_data_encoded.csv,' and 'unique_encoded_labels.csv,' categorizing the data accordingly.
+<img width="1105" alt="Screenshot 1402-11-05 at 9 45 41 at night" src="https://github.com/danialfarsi/hamshahri_corpus/assets/43178887/f1eeb614-aeb9-4a2a-8c5f-497d7f08b261">
 
-6. **Update the Repository:**
-   - Ensure that the repository is kept up-to-date with any changes or improvements to the conversion process.
 
-## Result
-
-The conversion process will yield three CSV files:
-
-- **test.csv:** Contains data related to the test category.
-- **most.csv:** Contains data related to the most category.
-- **classes.csv:** Contains data categorized by classes.
 
 ## Repository Updates
 
